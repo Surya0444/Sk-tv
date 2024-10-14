@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { font-family: "Liberation Mono", monospace; font-size: 10pt; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Game Selector&lt;/title&gt;
+    &lt;style&gt;
+       body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #007bff, #00aaff);
+    animation: backgroundAnimation 10s infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(to right, #007bff, #00aaff);
+    }
+    50% {
+        background: linear-gradient(to right, #00aaff, #33ccff);
+    }
+    100% {
+        background: linear-gradient(to right, #007bff, #00aaff);
+    }
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    box-shadow: 0 0 15px #007bff;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    margin: 10px auto;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+}
+
+/* Specific button colors */
+.button-1 {
+    background-color: #ff4d4d; /* Light Red */
+    box-shadow: 0 0 15px #ff4d4d;
+}
+
+.button-2 {
+    background-color: #66ff66; /* Light Green */
+    box-shadow: 0 0 15px #66ff66;
+}
+
+.button-3 {
+    background-color: #66ccff; /* Light Blue */
+    box-shadow: 0 0 15px #66ccff;
+}
+
+.button-4 {
+    background-color: #ffcc00; /* Light Orange */
+    box-shadow: 0 0 15px #ffcc00;
+}
+
+.button-5 {
+    background-color: #ff66b3; /* Light Pink */
+    box-shadow: 0 0 15px #ff66b3;
+}
+
+.button-6 {
+    background-color: #ff1a8c; /* Darker Pink */
+    box-shadow: 0 0 15px #ff1a8c;
+}
+
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;img src=&quot;photos/logo.png&quot; alt=&quot;Sanam Logo&quot; class=&quot;logo&quot;&gt;
+        &lt;div class=&quot;buttons&quot;&gt;
+            &lt;button class=&quot;button-1&quot; onclick=&quot;navigateToPage()&quot;&gt;IN 999&lt;/button&gt;
+            &lt;button class=&quot;button-2&quot; onclick=&quot;navigateToPage()&quot;&gt;BIG MUMBAI&lt;/button&gt;
+            &lt;button class=&quot;button-3&quot; onclick=&quot;navigateToPage()&quot;&gt;82 LOTTARY&lt;/button&gt;
+            &lt;button class=&quot;button-4&quot; onclick=&quot;navigateToPage()&quot;&gt;TIRANGA&lt;/button&gt;
+            &lt;button class=&quot;button-5&quot; onclick=&quot;navigateToPage()&quot;&gt;BDG&lt;/button&gt;
+            &lt;button class=&quot;button-6&quot; onclick=&quot;navigateToPage()&quot;&gt;51 GAME&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        function navigateToPage() {
+            window.location.href = &quot;select.html&quot;;
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
